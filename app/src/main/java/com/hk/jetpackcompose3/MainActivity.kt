@@ -60,6 +60,11 @@ fun BaseFun() {
         }, shape = RoundedCornerShape(8.dp)) {
             Text(text = "Tap")
         }
+        Button(onClick = {
+            clickCount++;
+        }, shape = RoundedCornerShape(8.dp)) {
+            Text(text = "Tap")
+        }
     }
 }
 
