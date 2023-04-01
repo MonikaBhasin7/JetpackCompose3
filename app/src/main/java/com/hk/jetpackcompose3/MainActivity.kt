@@ -33,7 +33,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = Color.White
                 ) {
-                    BaseFun(viewModel = mainViewModel)
+//                    BaseFun(viewModel = mainViewModel)
+                    SuperMarketNavHost()
                 }
             }
         }
